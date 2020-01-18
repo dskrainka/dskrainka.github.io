@@ -1,0 +1,114 @@
+@import url('https://rsms.me/inter/inter.css');
+/*html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}*/
+
+h2 {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	/* identical to box height, or 100% */
+	color: #000000;
+
+}
+
+a {
+	color: black;
+}
+
+.parent {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	width: 90vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column {
+	/*background-color: grey;*/
+}
+
+.left {
+	width: 210px;
+}
+
+.center {
+	width: 500px;
+	/*background-color: white;*/
+}
+
+.right {
+	width: 600px;
+	/*background-color: blue;*/
+}
+
+#name {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 140%;
+	/* or 34px */
+
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.01em;
+
+	color: #212121;
+	position: absolute;
+	top: 80px;
+}
+
+#work {
+	position: absolute;
+	/*background-color: blue;*/
+	top: 230px;
+}
+
+#nav {
+	position: relative;
+	top: 100px;
+	right: 0px;
+	text-align: right;
+	word-spacing: 80px;
+
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	/* identical to box height, or 156% */
+
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+
+	color: #212121;
+}
+
+#filters {
+	/*background-color: blue;*/
+	position: absolute;
+	top: 220px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 40px;
+	/* or 225% */
+
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+
+	color: #212121;
+}
+
+#homepageImage {
+	background-color: grey;
+	width: 100%;
+	position: relative;
+	top: 140px;
+}
